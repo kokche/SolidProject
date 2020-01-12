@@ -77,6 +77,7 @@ class _myappState extends State<myapp> {
       appBar: AppBar(title: new Text("You tap on the button $_count"),),
       backgroundColor: _colors,
       floatingActionButton: new RaisedButton(
+
         onPressed: () => setState(() =>_count++),
         child: new Text(_string),color: Colors.white,),
       floatingActionButtonLocation: _buttonLocation,);
